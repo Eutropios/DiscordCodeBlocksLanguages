@@ -51,7 +51,7 @@ foo_dict = {
 | AspectJ                 | aspectj                |
 | AutoHotkey              | autohotkey             |
 | AutoIt                  | autoit                 |
-| Awk                     | awk, mawk, nawk, gawk  |
+| Awk                     | awk                    |
 | Bash                    | bash, sh, zsh          |
 | Basic                   | basic                  |
 | BNF                     | bnf                    |
@@ -137,7 +137,7 @@ foo_dict = {
 | N1QL                    | n1ql                   |
 | NSIS                    | nsis                   |
 | Nginx                   | nginx, nginxconf       |
-| Nim                     | nim, nimrod            |
+| Nim                     | nim                    |
 | Nix                     | nix                    |
 | OCaml                   | ocaml, ml              |
 | Objective C             | objectivec, mm, objc, obj-c, obj-c++, objective-c++ |
@@ -191,7 +191,7 @@ foo_dict = {
 | Thrift                  | thrift                 |
 | TP                      | tp                     |
 | Twig                    | twig, craftcms         |
-| TypeScript              | typescript, ts, tsx, mts, cts |
+| TypeScript              | typescript, ts, tsx    |
 | VB.Net                  | vbnet, vb              |
 | VBScript                | vbscript, vbs          |
 | VHDL                    | vhdl                   |
