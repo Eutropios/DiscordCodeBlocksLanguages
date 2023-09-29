@@ -1,0 +1,52 @@
+{
+    "folders": [
+        {
+            "path": ".."
+        }
+    ],
+    "settings": {
+        "[markdown]": {
+            "cSpell.advanced.feature.useReferenceProviderRemove": "/^#+\\s/",
+            "cSpell.advanced.feature.useReferenceProviderWithRename": true,
+            "cSpell.fixSpellingWithRenameProvider": true,
+            "diffEditor.ignoreTrimWhitespace": false,
+            "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+            "editor.formatOnSave": true,
+            "editor.quickSuggestions": {
+                "comments": "off",
+                "other": "off",
+                "strings": "off"
+            },
+            "editor.unicodeHighlight.ambiguousCharacters": false,
+            "editor.unicodeHighlight.invisibleCharacters": false,
+            "editor.wordWrap": "on"
+        },
+        "[python]": {
+            "diffEditor.ignoreTrimWhitespace": false,
+            "editor.formatOnType": true,
+            "editor.inlineSuggest.suppressSuggestions": false,
+            "editor.wordBasedSuggestions": false
+        },
+        "cSpell.ignorePaths": [
+            ".git/objects",
+            ".vscode",
+            ".vscode-insiders",
+            "docs/source/conf.py",
+            "node_modules",
+            "package-lock.json",
+            "pyproject.toml",
+            "vscode-extension",
+            "~/AppData/Roaming/Code/User/settings.json"
+        ],
+        "cSpell.words": [],
+        "editor.formatOnSave": true,
+        "markdown-table-formatter.enable": true,
+        "markdown-table-formatter.enableSort": true,
+        "markdown-table-formatter.keepFirstAndLastPipes": true,
+        "ruff.args": [
+            "--config=./pyproject.toml --preview"
+        ],
+        "ruff.enable": true,
+        "vscord.status.buttons.button1.git.idle.enabled": false
+    }
+}

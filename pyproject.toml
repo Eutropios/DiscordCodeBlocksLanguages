@@ -1,0 +1,78 @@
+[tool.docformatter]
+    black               = true
+    pre-summary-newline = true
+    recursive           = true
+    style               = "sphinx"
+    wrap-descriptions   = 72
+    wrap-summaries      = 72
+
+
+[tool.mypy]
+    exclude = [
+        '\.git',
+        '\.hg',
+        '\.mypy_cache',
+        '\.ruff_cache',
+        '\.tox',
+        '\.venv',
+        '_build',
+        'buck-out',
+        'build',
+        'dist',
+    ]
+    python_version = "3.11"
+    strict = true
+
+
+[tool.ruff]
+    ignore         = []
+    line-length    = 88
+    preview        = true
+    select         = ["ALL", "CPY001", "PLC1901"]
+    show-fixes     = true
+    tab-size       = 4
+    target-version = "py311"
+
+    [tool.ruff.flake8-copyright]
+        author = "Noah Jenner"
+
+    [tool.ruff.flake8-implicit-str-concat]
+        allow-multiline = true
+
+    [tool.ruff.flake8-quotes]
+        docstring-quotes = "double"
+        inline-quotes    = "double"
+        multiline-quotes = "double"
+
+    [tool.ruff.flake8-type-checking]
+        exempt-modules = ["typing"]
+        strict         = true
+
+    [tool.ruff.isort]
+        required-imports = ["from __future__ import annotations"]
+
+    [tool.ruff.pycodestyle]
+        max-doc-length = 72
+
+    [tool.ruff.pydocstyle]
+        convention = "pep257"
+
+
+[tool.black]
+    exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+  | \.ruff_cache
+)/
+'''
+    include = '\.pyi?$'
+    line-length = 88
+    verbose = true
