@@ -13,7 +13,7 @@ The following aliases, when placed after the opening triple backticks of a code 
 
 Using the following syntax (remember to use backticks, not quotations)
 
-\`\`\`somelanguage  
+\`\`\`python  
 foo_dict = {  
 &nbsp;&nbsp;&nbsp;&nbsp;"bar": "cat",  
 &nbsp;&nbsp;&nbsp;&nbsp;"baz": "dog",  
