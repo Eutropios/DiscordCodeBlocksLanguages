@@ -33,9 +33,6 @@ foo_dict = {
 
 ## The List
 
-# Supported Languages
-
-The table below shows the full list of languages (and corresponding classes/aliases) supported by Highlight.js.  Languages that list a **Package** below are 3rd party languages and are not bundled with the core library.  You can find their repositories by following the links.
 | Language                | Aliases                | Package |
 | :-----------------------| :--------------------- | :------ |
 | 1C                      | 1c                     |         |
